@@ -546,6 +546,53 @@ span {
                     display: flex;
                     justify-content: center;
                 }
+
+                /* experience google */
+                .expe1 {
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                }
+
+                .text-expe4 {
+                    display: block;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                }
+
+                .text-expe4 h3 {
+                    text-align: center;
+                }
+
+                .text-expe4 h6 {
+                    text-align: center;
+                }
+
+                .text-expe4 p {
+                    text-align: center;
+                }
+
+                .image-expe2 img{
+                    width: 70%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 20px;
+                list-style: none;
+                filter: saturate(0%);
+                transition: var(--transition);
+                }
+
+                .image-expe2 img:hover {
+                    transform: scale(1.1);
+                 border-radius: 10px;
+                 filter: saturate(100%);
+                 border-radius: 20px;
+                }
+
+                .image-expe1 {
+                    display: flex;
+                    justify-content: center;
+                }
             /* about */
 
             .copy-about {
@@ -788,8 +835,8 @@ span {
                         }
 
                         .copy-expe {
-                            display: flex;
-                            flex-direction: column-reverse;
+                            display: grid;
+                            grid-template-columns: repeat(1,1fr);
                         }
 
                         .text-expe1 {
@@ -835,8 +882,8 @@ span {
 
                         /* Experience 2 */
                         .copy-expe1 {
-                            display: grid;
-                            grid-template-columns: repeat(1,1fr);
+                            display: flex;
+                            flex-direction: column-reverse;
                         }
 
                         .text-expe2 {
@@ -857,8 +904,8 @@ span {
 
                         /* Experience 3 */
                         .copy-expe3 {
-                            display: flex;
-                            flex-direction: column-reverse;
+                            display: grid;
+                            grid-template-columns: repeat(1,1fr);
                         }
 
                         .text-expe3 {
@@ -874,6 +921,28 @@ span {
                         }
 
                         .image-expe1 img {
+                            filter: saturate(100%);
+                        }
+
+                        /* experience google */
+                        .expe1 {
+                            display: flex;
+                            flex-direction: column-reverse;
+                        }
+
+                        .text-expe4 {
+                            margin-top: 1rem;
+                        }
+
+                        .text-expe4 h3 {
+                            font-size: 20px;
+                        }
+
+                        .text-expe4 p {
+                            font-size: 12px;
+                        }
+
+                        .image-expe2 img {
                             filter: saturate(100%);
                         }
                         
@@ -903,8 +972,8 @@ span {
                         }
                         
                         .copy-about {
-                            display: grid;
-                            grid-template-columns: repeat(1,1fr);
+                            display: flex;
+                            flex-direction: column-reverse;
                         }
 
                         .text-about {
@@ -1002,9 +1071,17 @@ span {
                             grid-template-columns: repeat(1,1fr);
                         }
 
+                        .text-project p {
+                            font-size: 16px;
+                        }
+
                         .copy-certi {
                             display: flex;
                             flex-direction: column-reverse;
+                        }
+
+                        .text-certi p {
+                            font-size: 16px;
                         }
 
                         .image-certi img {
@@ -1016,11 +1093,34 @@ span {
                             grid-template-columns: repeat(1,1fr);
                         }
 
-                        .copy-about {
-                            display: grid;
-                            grid-template-columns: repeat(1,1fr);
+                        .text-expe p {
+                            font-size: 16px;
                         }
 
+                        .text-expe1 p {
+                            font-size: 16px;
+                        }
+
+                        .text-expe2 p {
+                            font-size: 16px;
+                        }
+
+                        .text-expe3 p {
+                            font-size: 16px;
+                        }
+
+                        .text-expe4 p {
+                            font-size: 16px;
+                        }
+
+                        .copy-about {
+                            display: flex;
+                            flex-direction: column-reverse;
+                        }
+
+                        .text-about p {
+                            font-size: 16px;
+                        }
 
                         .text-touch h1 {
                             font-size: 80px ;
@@ -1297,7 +1397,7 @@ span {
                         }
 
                         .img-expe img {
-                            width: 60%;
+                            width: 70%;
                             display: block;
                             margin-left: auto;
                             margin-right: auto;
@@ -1390,6 +1490,36 @@ span {
                             }
 
                             .image-expe1 img:hover {
+                                filter: saturate(100%);
+                            }
+
+                            /* Experience google */
+                            .expe1 {
+                                display: grid;
+                                grid-template-columns: repeat(2,1fr);
+                            }
+
+                            .text-expe4 p{
+                                font-size: 21px;
+                            }
+
+                            .text-expe4 {
+                                display: block;
+                                margin-top: auto;
+                                margin-bottom:auto ;
+                            }
+
+                            .image-expe2 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            .image-expe2 img{
+                                filter: saturate(0%);
+                            }
+
+                            .image-expe2 img:hover {
                                 filter: saturate(100%);
                             }
                             /* end experience */
