@@ -1417,6 +1417,12 @@ span {
                             grid-template-columns: repeat(2,1fr);
                         }
 
+                        .text-project1 {
+                            display: block;
+                            margin-top: auto;
+                            margin-bottom: auto;
+                        }
+
                         .text-project1 p {
                             font-size: 21px;
                         }
@@ -1435,6 +1441,12 @@ span {
                         .copy-project2 {
                             display: grid;
                             grid-template-columns: repeat(2,1fr);
+                        }
+
+                        .text-project2 {
+                            display: block;
+                            margin-top: auto;
+                            margin-bottom: auto;
                         }
 
                         .text-project2 p {
@@ -1552,7 +1564,9 @@ span {
                         }
 
                         .text-expe1 {
-                            margin-top: 0;
+                            display: block;
+                            margin-top: auto;
+                            margin-bottom: auto;
                         }
 
                         .text-expe1 p {
