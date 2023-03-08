@@ -919,6 +919,10 @@ span {
                             flex-direction: column-reverse;
                         }
                         
+                        .text-project1 {
+                            margin-top: 1rem;
+                        }
+
                         .text-project1 h3 {
                             font-size: 20px;
                         }
@@ -939,6 +943,10 @@ span {
 
                         .text-project2 h3 {
                             font-size: 20px;
+                        }
+
+                        .text-project2 {
+                            margin-top: 1rem;
                         }
 
                         .text-project2 p {
